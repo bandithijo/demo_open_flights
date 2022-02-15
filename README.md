@@ -14,7 +14,7 @@ rails g model Review title description:text score:integer airline:belongs_to
 rails g serializer Airline name image_url slug
 rails g serializer Review title description score airline_id
 rails g controller Pages
-yarn add react-router-dom
+yarn add react-router-dom@5.2.0
 ```
 
 ## Postman doc
