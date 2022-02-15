@@ -15,6 +15,8 @@ rails g serializer Airline name image_url slug
 rails g serializer Review title description score airline_id
 rails g controller Pages
 yarn add react-router-dom@5.2.0
+yarn add axios@0.19.2
+yarn add styled-components@5.1.0
 ```
 
 ## Postman doc
